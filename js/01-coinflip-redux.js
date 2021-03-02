@@ -1,9 +1,9 @@
 
 //declaring a variable called coinFlip.
 let coinFlip;
-let times = parseFloat(prompt('Enter a number from 1-3'));
+let times = parseFloat(prompt('Enter a number from 1-100'));
 //for loop
-for (let f = times; f <= 3; f++) {
+for (let f = times; f <= 100; f++) {
     coinFlip = Math.round(Math.random());
 
 //check result
